@@ -14,7 +14,7 @@ module.exports = env => {
       "platzi-video": path.resolve(__dirname, "index.js")
     },
     output: {
-      path: path.resolve(__dirname, "dist"),
+      path: path.resolve(__dirname, "Build"),
       filename: "js/[name].[hash].js",
       publicPath: path.resolve(__dirname, "dist") + "/",
       chunkFilename: "js/[id].[chunkhash].js"
