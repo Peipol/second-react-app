@@ -84,6 +84,7 @@ typings/
 .dynamodb/
 
 # End of https://www.gitignore.io/api/node
-
+#Build
+Build/
 #Extras from the course
-Extra
+Extra/
